@@ -3,7 +3,7 @@
 
 tasks = []   # Each task: {"id": int, "title": str, "priority": str, "done": bool}
 _next_id = 1
-
+print(f"--- {len(tasks)} Task(s) ---")
 def display_tasks():
     if not tasks:
         print("📋 No tasks yet.")
