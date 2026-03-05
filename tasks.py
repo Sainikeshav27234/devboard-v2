@@ -11,3 +11,4 @@ def display_tasks():
 
     for t in tasks:
         print(f"[{t['id']}] {t['title']} ({t['priority']})") 
+def search_task(keyword): results = [t for t in tasks if keyword.lower() in t["title"].lower()] if not results: print(f"🔍 No tasks found matching '{keyword}'") else: print(f"🔍 Found {len(results)} match(es):") for t in results: print(f" [{t['id']}] {t['title']}")
