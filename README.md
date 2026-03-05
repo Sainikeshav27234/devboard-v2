@@ -61,10 +61,36 @@ devboard-v2
 ├── README.md
 └── CONTRIBUTING.md
 
-Team Members
+## Installation
+
+1. Clone the repository
+git clone https://github.com/Sainikeshav27234/devboard-v2.git
+
+2. Navigate into the folder
+cd devboard-v2
+
+3. Install dependencies
+pip install pytest
+
+How to Run the Program
+
+Example:
+
+## Running the App
+
+Run Python and import the task module:
+
+python
+>>> import tasks
+>>> tasks.add_task("Finish assignment", "high")
+>>> tasks.display_tasks()
+
+
+### Team Members
 Name	            Role	                GitHub Username
 Keshav	            Team Lead	            @Sainikeshav27234
 Chinni Krishna	    Backend Developer A	    @GrayViper
 Sreejit 	        Backend Developer B	    @Sreejit
 Murli	            QA Engineer             @Murli
 Archishman          Technical Writer	    @Zlan9
+
